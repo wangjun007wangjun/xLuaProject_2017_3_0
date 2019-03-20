@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/06_LuaCallCSharp/06_LuaCallCSharp.unity
+  isLoaded: 1
+  isActive: 1

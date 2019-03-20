@@ -1,0 +1,4 @@
+function add(a,b)
+print('this is a add() in CallLuaGloalFunction.lua.txt')
+return a+b,a,b
+end

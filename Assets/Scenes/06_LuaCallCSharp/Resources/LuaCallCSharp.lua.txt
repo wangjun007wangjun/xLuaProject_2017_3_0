@@ -1,0 +1,21 @@
+--构造游戏物体，new对象
+
+CS.UnityEngine.GameObject("new by lua")
+
+print(CS.UnityEngine.Time.deltaTime)
+
+--变量保存，可节约性能
+local gameObject = CS.UnityEngine.GameObject
+
+local camera=gameObject.Find("Main Camera")
+camera.name="update by lua"
+
+local light=gameObject.Find("Directional Light")
+print(light.transform.position)
+--访问变量的属性或者方法
+--1.方法用：直接访问
+--local lightCom=light:GetComponent("Light");
+--2.或者用.，传入本身访问
+local lightCom=light.GetComponent(light,"Light");
+
+lightCom.color=CS.UnityEngine.Color.green

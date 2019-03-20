@@ -1,0 +1,12 @@
+print('there are CSharpCallLua.lua.txt')
+
+a=100
+str='wangjun'
+isDie=false
+
+person={
+name='wangjun',age=22,2,333
+}
+function person.eat(self,a,b)
+print(a+b)
+end

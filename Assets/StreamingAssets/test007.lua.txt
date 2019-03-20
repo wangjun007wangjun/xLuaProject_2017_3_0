@@ -1,0 +1,1 @@
+print('I am 007 from test007.lua.txt')
